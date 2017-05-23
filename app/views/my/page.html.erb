@@ -14,7 +14,7 @@
     </div>
   <% end if @blocks['top'] %>
 </div>
-
+<div style="clear:both"></div>
 <div id="list-left" class="splitcontentleft">
   <% @blocks['left'].each do |b|
     next unless block_exists?(@user, b) %>
